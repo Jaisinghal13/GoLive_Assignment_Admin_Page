@@ -1,0 +1,41 @@
+.logo
+{
+    top: 10px;
+left: 31px;
+width: 5px;
+height: 5x;
+border: 1px solid var(--unnamed-color-ffffff);
+border: 1px solid #FFFFFF;
+opacity: 1;
+}
+.image{
+    height: 50px;
+    width: 180px;
+    margin-left: 15px;
+
+}
+.im{
+    height: 45px;
+    width: 70px;
+    margin-right: 15px;
+}
+.pro {
+    border-radius: 50%;
+    height: 45px;
+    width: 60px;
+    margin-right: 15px;
+  }
+  .navbar
+  {
+    background: var(--unnamed-color-251942) 0% 0% no-repeat padding-box;
+    background: #251942 0% 0% no-repeat padding-box;
+  }
+  .co{
+   color: #7C758D; 
+  }
+  ::placeholder
+  {
+      color: white;
+  }
+   #element1 {display:inline-block;margin-right:10px;} 
+#element2 {display:inline-block;} 

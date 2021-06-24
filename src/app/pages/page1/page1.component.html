@@ -1,0 +1,355 @@
+
+    <nav class="navbar  fixed-top">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand">Navbar</a> -->
+         <!-- <div class="logo"><img class="image" src="/Assignment 2 GoLive Games/assets/GoGame_Logo-01.png" alt="GoLive image"></div>  -->
+         <div class="logo"><img class="image" src="../../../assets/GoGame_Logo-01.png" alt="GoLive image"></div> 
+          <!-- <form class="d-flex"> -->
+          <div>
+              <img class="pro" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEZrATmgHOi5ls0YCCQBTkocia_atSw0X-Q&usqp=CAU" alt="">
+            <img class="im" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAARVBMVEX///8jHyAgHB0OBQgMAAWlpKQpJSaenZ309PUAAAAIAAD8/Pz5+fna2tqop6dvbW1oZmevrq4tKivFxMQYExRiYGC+vr7Dc4WrAAABB0lEQVR4nO3cS3LCMBAFQGIIIBPbhN/9jxqSyiIsTUnlydB9g1eSNV5MvdUKAAAAAAAAAAAAAAAAXtEwvscwDk3yHabSb2Loy/TRIOHUv8XRH+sHHMrSqR6U+hd1jHSE90P8lHC2/Lc0/0vzMy3WMdynxaFBwu+Jv4uh0cQHAAAAAAAAAIB59jG0ijdcT9sYTtcmK0PncumiuJRz/YD7bbf0ut4f3br+GvQt2PblrXrC3WbpUA/6sXrC/GeY/zvM/5aGmofHZiu0S//M/GoVDwAAAAAAAAAAZsjeuRerN1HL7hPy95fm76DNnzD/Lc3/0rxAJ3v+Xn0AAAAAAAAAAAAAAAD4T74AYhs1O+vt3ioAAAAASUVORK5CYII=" alt="Menu image">
+          </div> 
+          <!-- </form> -->
+        </div>
+      </nav>
+      <br><br><br>
+      <div style="margin-top: 1px;" class="row">
+          <div  class="col-lg-3">
+            <div class="card sticky-top"  style="background-color: #16032A;position: sticky;top: 70px;z-index: 1;">
+            <div style="background-color:  #251942;" class="row">
+                <div class="col-lg-1">
+                    <!-- <img style="margin-left: 15px; margin-top: 17px;" src="/Assignment 2 GoLive Games/assets/AngleLeft.svg" alt=""> -->
+                    <img style="margin-left: 15px; margin-top: 17px;" src="../../../assets/AngleLeft.svg" alt="">
+                </div>
+                <div class="col-lg-11">
+                    <div> <h5 style="color: cornsilk; margin-top: 5px; margin-bottom: 0px;">NEW AGE ESPORTS</h5>
+<h6 style="color: #BA32FF; margin-top: 0px;">CREATE TOURNAMENT</h6></div>
+                </div>
+            </div>
+            <div style="margin-top: 1px; background-color:  #251942; height: 550px;" class="row">
+                <div  style="margin-top: 40px;" class="col">
+                    <ul style="margin-left: 20px; list-style-type: none;">
+                        <li style="color: cornsilk;">CREATE</li>
+                        <li style="margin-top: 5px;" class="co">Setup</li>
+                        <li style="margin-top: 3px;" class="co">Brackets</li>
+                        <li style="margin-top: 3px;" class="co">Stream</li>
+                        <li style="margin-top: 3px;" class="co">Publish</li>
+                        <li style="color: cornsilk;margin-top: 30px;">SHARE</li>
+                        <li style="margin-top: 5px;" class="co">Invite Players</li>
+                        <li style="margin-top: 3px;" class="co">Embed Codes</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div style="background-color: #16032A;" class="col-lg-9">
+            <div class="row">
+                <div class="col-lg-12">
+                      <nav style="background-color: #16032A;" class="navbar">
+                        <div>
+                          <a style="color: cyan;margin-left:5px;margin-right: 15px;font-size: 16px;font-weight: bold;" class="navbar-brand">BASICS</a>
+                          <a style="color: cyan;margin-left:5px;margin-right: 15px;font-size: 16px;font-weight: bold;" class="navbar-brand" href="#">MAP PICKS</a>
+                          <a style="color: cyan;margin-left:5px;margin-right: 15px;font-size: 16px;font-weight: bold;" class="navbar-brand" href="#">HOME TEAM STATS</a>
+                          <a style="color: cyan;margin-left:5px;margin-right: 5px;font-size: 16px;font-weight: bold;" class="navbar-brand" href="#">GUESS TEAM STATS</a>
+                          <a style="color: darkblue;margin-left: 500px;" class="navbar-brand" href="#">Help</a>
+                        </div>
+                      </nav>
+                </div>
+                <div style="margin-top: 20px;" class="row">
+                    <div class="col-lg-12">
+                        <div style="background-color:  #251942;" class="card">
+                            <div class="card-body">
+                                <h5 style="color: cyan;font-size: 16px;font-weight: bold;">MATCH DETAILS</h5>
+                                <p style="color: #5637A2;margin-top: 30px;margin-left: 12px;font-size: 14px;margin-bottom: 5px;">SELECTED TOURNAMENT</p>
+                                <p style="color: cyan;margin-left: 12px;font-size: 18px;">{{leagueAdditionId}}</p>
+                             <div class="row">
+                                 <div class="col-lg-6">
+                                    <div  class="input-group mb-3">
+                                        <input style="background-color:  #251942;border-right-style: none;color: white;" type="text" class="form-control" [(ngModel)]="date">
+                                        <span style="background-color:  #251942;" class="input-group-text"><img src="../../../assets/Calendar.svg" alt=""></span>
+                                      </div>
+                                 </div>
+                                 <div class="col-lg-6">
+                                    <div class="input-group mb-3">
+                                        <input style="background-color:  #251942;color: #BA32FF;" type="text" class="form-control" value="MATCH TYPE">
+                                      </div>
+                                 </div>
+                             </div>
+                             
+                            </div>
+                          </div>
+                    </div>
+                    <div style="margin-top: 10px;"  class="col-lg-12">
+                        <div style="background-color:  #251942;" class="card">
+                            <div class="card-body">
+                                <h5 style="color: cyan;font-size: 16px;font-weight: bold;margin-bottom: 30px;">TERMS AND SCORE</h5>
+                             <div class="row">
+                                 <div class="col-lg-6">
+                                    <div  class="input-group mb-3">
+                                        <span style="background-color: #251942; padding: 1px;" class="input-group-text"><img src="../../../assets/TeamBadge_Sample.png" alt=""></span>
+
+                                        <input style="background-color:  #251942;border-right-style: none; border-left-style: none;color: cyan;" type="text" class="form-control" placeholder="TYPE HOME TEAM" [(ngModel)]="homeTeam"><!-- *ngIf="data2" [(ngModel)]="data2.scriptData.data[2].teamName"-->
+                                        <span style="background-color:  #251942; padding: 1px;" class="input-group-text"><p style="color:#BA32FF;margin-top: 0px;margin-bottom: 0px;margin-right: 6px;">HOME TEAM</p></span>
+                                      </div>
+                                 </div>
+                                 <div class="col-lg-6">
+                                    <div class="input-group mb-3">
+                                        <input style="background-color:  #251942;border-right-style: none;color: #BA32FF;" type="text" class="form-control" placeholder="TYPE AWAY TEAM" [(ngModel)]="awayTeam">
+                                        <span style="background-color:  #251942; padding: 1px;" class="input-group-text"><p style="color:#BA32FF;margin-top: 0px;margin-bottom: 0px;margin-right: 6px;">GUEST TEAM</p></span>
+                                     
+                                      </div>
+                                 </div>
+                             </div>
+                             <div class="row">
+                                <div class="col-lg-6">
+                                   <div  class="input-group mb-3">
+                                       <input style="background-color:  #251942;color: #BA32FF;" type="text" class="form-control" placeholder="TYPE HOME TEAM SCORE" [(ngModel)]="homeTeamScore">
+                                      </div>
+                                </div>
+                                <div class="col-lg-6">
+                                   <div class="input-group mb-3">
+                                       <input style="background-color:  #251942;color: antiquewhite;" type="text" class="form-control"  placeholder="TYPE AWAY TEAM SCORE" [(ngModel)]="awayTeamScore">
+                                     </div>
+                                </div>
+                            </div>
+                            </div>
+                          </div>
+                          <div style="margin-top: 10px;"  class="col-lg-12">
+                            <div style="background-color:  #251942;" class="card">
+                                <div class="card-body">
+                                    <h5 style="color: cyan;font-size: 16px;font-weight: bold;margin-bottom: 30px;">COMMUNITY PREDICTIONS</h5>
+                                 <div class="row">
+                                     <div class="col-lg-6">
+                                        <div  class="input-group mb-3">
+                    
+    
+                                            <input style="background-color:  #251942;border-right-style: none;color:#BA32FF;" type="text" class="form-control" placeholder="TYPE POLL PERCENTAGE">
+                                            <span style="background-color:  #251942; padding: 1px;" class="input-group-text"><p style="color:#BA32FF;margin-top: 0px;margin-bottom: 0px;margin-right: 6px;">RESULT: 1-2</p></span>
+                                          </div>
+                                     </div>
+                                     <div class="col-lg-6">
+                                        <div class="input-group mb-3">
+                                            <input style="background-color:  #251942;border-right-style: none;color:white;" type="text" class="form-control" value="35%">
+                                            <span style="background-color:  #251942; padding: 1px;" class="input-group-text"><p style="color:#BA32FF;margin-top: 0px;margin-bottom: 0px;margin-right: 6px;">RESULT: 2-1</p></span>
+                                         
+                                          </div>
+                                     </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-lg-6">
+                                       <div  class="input-group mb-3">
+                                           <input style="background-color:  #251942;color:white;border-right-style: none;" type="text" class="form-control" value="20%">
+                                           <span style="background-color:  #251942; padding: 1px;" class="input-group-text"><p style="color:#BA32FF;margin-top: 0px;margin-bottom: 0px;margin-right: 6px;">RESULT: 3-0</p></span>
+                                         
+                                          </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                       <div class="input-group mb-3">
+                                           <input style="background-color:  #251942;color: #BA32FF;border-right-style: none;" type="text" class="form-control" placeholder="TYPE THE POLL PERCENTAGE">
+                                           <span style="background-color:  #251942; padding: 1px;" class="input-group-text"><p style="color:#BA32FF;margin-top: 0px;margin-bottom: 0px;margin-right: 6px;">RESULT: 3-0</p></span>
+                                         
+                                         </div>
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;" class="row">
+                        <div class="col-lg-10">
+                            
+                        </div>
+                        <div class="col-lg-2">
+                            <div  class="d-grid gap-2">
+                               <button type="button" class="btn btn-primary" (click)="validinput()">NEXT</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+                <!-- <div style="margin-top: 10px;"  class="col-lg-12">
+                    <div style="background-color:  #251942;" class="card">
+                        <div class="card-body">
+                            <h5 style="color: cyan;font-size: 16px;font-weight: bold;margin-bottom: 30px;">FIRST MAP</h5>
+                         <div class="row">
+                             <div class="col-lg-6">
+                                <div  class="input-group mb-3">
+                                    
+                                    <input style="background-color:  #251942;color:#BA32FF;" type="text" class="form-control" value="SELECT MAP">
+                                 </div>
+                             </div>
+                             <div class="col-lg-6">
+                                <div  class="input-group mb-3">
+                                    
+                                    <input style="background-color:  #251942;color:#BA32FF;" type="text" class="form-control" value="SELECT A PICKING TEAM">
+                                 </div>
+                             </div>
+
+                         </div>
+                         <div class="row">
+                            <div class="col-lg-6">
+                                <div  class="input-group mb-3">
+                                    
+                                    <input style="background-color:  #251942;color:#BA32FF;border-right-style: none;" type="text" class="form-control" value="HOME TEAM SCORE">
+                                    <span style="background-color:  #251942;padding: 0px;" class="input-group-text"><img  src="/Assignment 2 GoLive Games/assets/TeamBadge_Sample.png" alt=""></span>
+                                     
+                                 </div>
+                             </div>
+
+                            <div class="col-lg-6">
+                               <div class="input-group mb-3">
+                                   <input style="background-color:  #251942;color: #BA32FF;" type="text" class="form-control" value="GUEST TEAM SCORE">
+                                  
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                               <div  class="input-group mb-3">
+                                   <input style="background-color:  #251942;color: #BA32FF; " type="text" class="form-control" value="VOD LINK">
+                                   
+                                  </div>
+                            </div>
+                            <div class="col-lg-6">
+                               <div class="input-group mb-3">
+                                   <input style="background-color:  #251942;color: #BA32FF;" type="text" class="form-control" value="UPLOAD SCRENSHOT">
+                                   
+                                 </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                      </div>
+                      
+                </div>
+                <div style="margin-top: 10px;"  class="col-lg-12">
+                    <div style="background-color:  #251942;" class="card">
+                        <div class="card-body">
+                            <h5 style="color: cyan;font-size: 16px;font-weight: bold;margin-bottom: 30px;">SECOND MAP</h5>
+                         <div class="row">
+                             <div class="col-lg-6">
+                                <div  class="input-group mb-3">
+            
+
+                                    <input style="background-color:  #251942;color:white;" type="text" class="form-control" value="BIND">
+                                     </div>
+                             </div>
+                             <div class="col-lg-6">
+                              
+                             <div class="input-group mb-3">
+                                <span style="padding: 0px;background-color: #251942;" class="input-group-text" ><img src="/Assignment 2 GoLive Games/assets/TeamBadge_Sample.png" alt=""></span>
+                                <input style="background-color: #251942;color: white;border-left-style: none;" type="text" class="form-control" value="DELHI DRAGONS">
+                              </div>
+                         </div>
+                         </div>
+                         <div class="row">
+                            <div class="col-lg-6">
+                               <div  class="input-group mb-3">
+                                   <input style="background-color:  #251942;color:white;border-right-style: none;" type="text" class="form-control" value="13">
+                                   <span style="background-color:  #251942;padding: 0px;" class="input-group-text"><img  src="/Assignment 2 GoLive Games/assets/TeamBadge_Sample.png" alt=""></span>
+                                   
+                                  </div>
+                            </div>
+                            <div class="col-lg-6">
+                               <div class="input-group mb-3">
+                                   <input style="background-color:  #251942;color:white;" type="text" class="form-control" value="5">
+                                   
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                               <div  class="input-group mb-3">
+                                   <input style="background-color:  #251942;color:white;" type="text" class="form-control" value="HTTPS://WWW.YOUTUBE.COM/">
+                                   
+                                  </div>
+                            </div>
+                            <div class="col-lg-6">
+                               <div class="input-group mb-3">
+                                   <input style="background-color:  #251942;color: #BA32FF;" type="text" class="form-control" value="UPLOAD SCRENSHOT">
+                                  
+                                 </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                      </div>
+                      
+                </div>
+                <div style="margin-top: 10px;"  class="col-lg-12">
+                    <div style="background-color:  #251942;" class="card">
+                        <div class="card-body">
+                            <h5 style="color: cyan;font-size: 16px;font-weight: bold;margin-bottom: 30px;">THIRD MAP</h5>
+                         <div class="row">
+                             <div class="col-lg-6">
+                                <div  class="input-group mb-3">
+                                    
+                                    <input style="background-color:  #251942;color:#BA32FF;" type="text" class="form-control" value="SELECT MAP">
+                                 </div>
+                             </div>
+                             <div class="col-lg-6">
+                                <div  class="input-group mb-3">
+                                    
+                                    <input style="background-color:  #251942;color:#BA32FF;" type="text" class="form-control" value="SELECT A PICKING TEAM">
+                                 </div>
+                             </div>
+
+                         </div>
+                         <div class="row">
+                            <div class="col-lg-6">
+                                <div  class="input-group mb-3">
+                                    
+                                    <input style="background-color:  #251942;color:#BA32FF;border-right-style: none;" type="text" class="form-control" value="HOME TEAM SCORE">
+                                    <span style="background-color:  #251942;padding: 0px;" class="input-group-text"><img  src="/Assignment 2 GoLive Games/assets/TeamBadge_Sample.png" alt=""></span>
+                                     
+                                 </div>
+                             </div>
+
+                            <div class="col-lg-6">
+                               <div class="input-group mb-3">
+                                   <input style="background-color:  #251942;color: #BA32FF;" type="text" class="form-control" value="GUEST TEAM SCORE">
+                                  
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                               <div  class="input-group mb-3">
+                                   <input style="background-color:  #251942;color: #BA32FF; " type="text" class="form-control" value="VOD LINK">
+                                   
+                                  </div>
+                            </div>
+                            <div class="col-lg-6">
+                               <div class="input-group mb-3">
+                                   <input style="background-color:  #251942;color: #BA32FF;" type="text" class="form-control" value="UPLOAD SCRENSHOT">
+                                   
+                                 </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                      </div>
+                      
+                </div>
+                <div style="margin-top: 10px;" class="row">
+                    <div class="col-lg-2">
+                        <div  class="d-grid gap-2">
+                            <button type="button" class="btn btn-primary">BACK</button>
+                        </div> 
+                    </div>
+                    <div class="col-lg-8">
+                        
+                    </div>
+                    <div class="col-lg-2">
+                        <div  class="d-grid gap-2">
+                            <button type="button" class="btn btn-primary">NEXT</button>
+                        </div>
+                        
+                    </div>
+                </div> -->
+            </div>
+            
+            </div>
+            
+          </div>
+      <!-- </div> -->
